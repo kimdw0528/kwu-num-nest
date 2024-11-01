@@ -3,7 +3,7 @@
 
 
 const lib = require("./lib");
-if (process.argc.length <= 3){
+if (process.argv.length <= 3){
     console.log("INSUFFICIENT PARAMETER!");
     process.exit(1);
 }
