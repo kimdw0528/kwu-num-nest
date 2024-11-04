@@ -26,7 +26,7 @@ switch (command){
         break;
     case "prime":
         result = lib.prime(numbers[0]);
-        if (result){
+        if (!result){
             console.log("NOT PRIME");
         }
         else {
