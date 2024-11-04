@@ -22,6 +22,7 @@ switch (command){
     case "avg":
         result = lib.avg(numbers);
         console.log("result is : ");
+        console.log(result);
         break;
     case "prime":
         result = lib.prime(numbers[0]);
@@ -35,9 +36,9 @@ switch (command){
     case "factorial":
         result = lib.factorial(numbers[0])
         console.log("result is : ");
+        console.log(result);
         break;
     default:
         console.log("Wrong command!");
         process.exit(1);
 }
-console.log(result);
